@@ -39,7 +39,7 @@ const About = () => {
                     {/* Enhanced Center Divider */}
                     <div className='flex flex-col items-center mx-6 lg:mx-8'>
                         {/* Decorative Circle in the Center */}
-                        <div className='relative'>
+                        <div className='hidden md:block relative'>
                             <div className='w-16 h-16 flex items-center justify-center rounded-full bg-[#EBCFA7] text-[#26282B] text-2xl shadow-md'>
                                 {/* Icon in the center (house icon as an example) */}
                                 <IoHome />

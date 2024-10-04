@@ -47,7 +47,7 @@ const Projects = () => {
           </div>
 
           {/* Project 1 */}
-          <div className="bg-[#EBCFA7] shadow-lg  overflow-hidden flex-1 border" data-aos="slide-left" data-aos-delay="300">
+          <div className="w-full bg-[#EBCFA7] shadow-lg  overflow-hidden flex-1 border" data-aos="slide-left" data-aos-delay="300">
             <img 
               src={Image1} 
               alt="Project 1" 
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
 
           {/* Project 2 */}
-          <div className="bg-[#EBCFA7] shadow-lg  overflow-hidden flex-1 border" data-aos="slide-right" data-aos-delay="300">
+          <div className="w-full bg-[#EBCFA7] shadow-lg  overflow-hidden flex-1 border" data-aos="slide-right" data-aos-delay="300">
             <img 
               src={Image2} 
               alt="Project 2" 

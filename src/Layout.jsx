@@ -8,7 +8,7 @@ import Controls from './Components/Controls';
 
 const Layout = () => {
     return (
-        <div className="flex flex-col min-h-screen bg-[#26282B]">
+        <div className="flex flex-col min-h-screen bg-[#26282B] overflow-hidden">
             <Topbar />
             <Navbar />
             <main className="flex-grow bg-[#26282B] min-h-[50vh]">
