@@ -65,21 +65,20 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="relative z-10 text-center px-5 w-full lg:w-[50%] h-[60vh] lg:pe-20" data-aos="slide-left" data-aos-delay="300">
+        <div className="relative z-10 text-center px-5 w-full lg:w-[50%] h-[30vh] sm:h-[30vh] lg:pe-20" data-aos="slide-left" data-aos-delay="300">
           <Slider {...settings}>
-            <div className='w-full sm:w-[80%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
-              <img src={S1} className='w-full sm:w-[95%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
+            <div className='w-full sm:w-[80%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
+              <img src={S1} className='w-full sm:w-[95%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
             </div>
 
-            <div className='w-full sm:w-[80%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
-              <img src={S2} className='w-full sm:w-[95%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
+            <div className='w-full sm:w-[80%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
+              <img src={S2} className='w-full sm:w-[95%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
             </div>
 
-            <div className='w-full sm:w-[80%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
-              <img src={S3} className='w-full sm:w-[95%] mx-auto h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
+            <div className='w-full sm:w-[80%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] bg-[#26282B]'>
+              <img src={S3} className='w-full sm:w-[95%] mx-auto h-[30vh] sm:h-[60vh] border-x-2 border-[#EBCFA7] rounded-se-[25%] rounded-es-[25%] object-cover' alt="" />
             </div>
           </Slider>
-
         </div>
       </section>
     </div>

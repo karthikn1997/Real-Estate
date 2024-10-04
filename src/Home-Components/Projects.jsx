@@ -14,7 +14,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-[#26282B] py-10 px-4 relative">
+    <div className="w-full min-h-screen bg-[#26282B] py-10 px-8 sm:px-4 relative">
 
       <div className="w-full absolute inset-0 bg-cover bg-center bg-opacity-30"
           style={{ backgroundImage: `url(${Bg})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", opacity: 0.2 }}

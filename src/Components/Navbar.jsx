@@ -73,7 +73,7 @@ const Navbar = () => {
                                 </NavLink>
                             </div>
                         </div>
-                        <button className="bg-gradient-to-r from-[#ebcfa75c] via-[#26282B] to-black hover:bg-gradient-to-l text-white font-semibold py-1 sm:py-2 px-8 rounded-xl transition duration-300 whitespace-nowrap tracking-wider" data-aos="flip-left" data-aos-delay="300">
+                        <button className="hidden lg:block bg-gradient-to-r from-[#ebcfa75c] via-[#26282B] to-black hover:bg-gradient-to-l text-white font-semibold py-1 sm:py-2 px-8 rounded-xl transition duration-300 whitespace-nowrap tracking-wider" data-aos="flip-left" data-aos-delay="300">
                             <div className='flex items-center gap-3 font-bold text-xl text-white hover:text-black'>
                                 <span className='text-[15px] text-white'>Explore Now</span><span className='text-2xl animate-bounce'></span>
                             </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <div className="-mr-2 flex md:hidden">
                         <button
                             onClick={toggleNavbar}
-                            className="inline-flex items-center justify-center p-2 rounded-md text-[#3E4095] hover:text-[#3E4095] hover:bg-white focus:outline-none"
+                            className="inline-flex items-center justify-center p-2 rounded-md text-[#26282B]  focus:outline-none"
                         >
                             {!isOpen ? (
                                 <svg

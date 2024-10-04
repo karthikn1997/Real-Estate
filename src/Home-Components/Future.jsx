@@ -27,7 +27,7 @@ const Future = () => {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias quas quaerat tempore, tempora illo pariatur facere minus inventore odio provident laboriosam. Facere nulla consectetur, maxime ducimus provident commodi perferendis?
             </p>
             <button className="w-[80%] sm:w-[25%] mx-auto bg-gradient-to-r from-[#ebcfa75c] via-[#26282B] to-black hover:bg-gradient-to-l text-white font-semibold py-2 sm:py-3 px-8 rounded-xl transition duration-300 border-[2px] border-[#ebcfa75c] whitespace-nowrap" data-aos="flip-left" data-aos-delay="300">
-              <div className='flex items-center gap-3 font-bold text-xl text-white hover:text-black'>
+              <div className='flex items-center justify-center gap-3 font-bold text-xl text-white hover:text-black'>
                 <span className='text-lg lg:text-2xl text-white flex justify-center items-center gap-4 tracking-wider'>Request A Visit <FaArrowRightLong className='mt-1'/></span>
               </div>
             </button>
