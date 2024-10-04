@@ -39,7 +39,7 @@ const Counters = () => {
                                 <h2 className='text-4xl md:text-5xl font-bold text-center mb-4 text-border text-[#26282B]'>
                                     {developersInView && <CountUp end={2} duration={3} />}K+
                                 </h2>
-                                <h3 className='text-2xl font-semibold text-center tracking-wider'>Delighted Owners</h3>
+                                <h3 className='text-xl font-semibold text-center tracking-wider'>Delighted Owners</h3>
                             </div>
                         </div>
                     </div>
