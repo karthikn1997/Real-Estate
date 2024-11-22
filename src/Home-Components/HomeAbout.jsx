@@ -12,7 +12,7 @@ const HomeAbout = () => {
 
     return (
         <div className='w-full min-h-[60vh] flex flex-col lg:flex-row justify-center items-center overflow-hidden'>
-            <div className='w-full lg:w-[50%] h-[40vh] sm:h-[60vh] bg-[#EBCFA7] flex flex-col justify-center items-center' data-aos="slide-right" data-aos-delay="300">
+            <div className='w-full lg:w-[50%] min-h-[60vh] bg-[#EBCFA7] flex flex-col justify-center items-center' data-aos="slide-right" data-aos-delay="300">
                 <div className='w-full md:w-[70%] p-6 md:p-0 flex flex-col justify-center items-center lg:justify-start lg:items-start'>
                     <h1 className='uppercase text-sm md:text-lg tracking-wider text-gray-500 '>cocotown realtors Company</h1>
                     <p className='tracking-wider text-[#26282B] text-3xl md:text-4xl font-bold text-center lg:text-left'>Your New Plot is Waiting </p>
